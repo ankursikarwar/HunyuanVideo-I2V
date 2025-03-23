@@ -1,4 +1,5 @@
 import os
+os.environ["MODEL_BASE"] = "/network/scratch/a/ankur.sikarwar/HunyuanVideoI2V/ckpts"
 import torch
 
 __all__ = [
